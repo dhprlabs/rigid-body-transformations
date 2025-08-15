@@ -1,34 +1,70 @@
 #pragma once
 
 #include <vector>
-#include <utility> 
 #include <Eigen/Dense>
+#include <cstddef> // for size_t
 
 namespace RigidBodyTransforms 
 {
     class Transform2D 
     {
     private:
-        int bodies;
-        Eigen::Matrix<float, 3, 3> resultantMatrix;
+        size_t bodies = 0;
+        Eigen::Matrix3f resultantMatrix = Eigen::Matrix3f::Identity();
 
-        std::vector<Eigen::Matrix<float, 2, 2>> rotationMatrix;
-        std::vector<Eigen::Matrix<float, 2, 1>> translationMatrix;
-        std::vector<Eigen::Matrix<float, 3, 3>> transform2DMatrix;
+        std::vector<Eigen::Matrix2f> rotationMatrix;
+        std::vector<Eigen::Vector2f> translationMatrix;
+        std::vector<Eigen::Matrix3f> transform2DMatrix;
 
     public:
-        // Constructor & destructor
-        Transform2D();
+        explicit Transform2D() = default;
 
-        // Methods
-        void setBodies(int count);
-        void formTranslationMatrix();
-        void formRotationMatrix();
+        // Setup
+        void setBodies(size_t count);
+
+        // Building transforms
+        void addRotation(float thetaRadians);
+        void addTranslation(float x, float y);
         void formTransformMatrix();
-        void calculateResultMatrix();
-        void printTranslationMatrix();
-        void printTransform2DMatrix();
-        void printRotationMatrix();
-        void printResultantMatrix();
+
+        // Computation
+        Eigen::Matrix3f calculateResultMatrix() const;
+
+        // Debug printing
+        void printTranslationMatrix() const;
+        void printTransform2DMatrix() const;
+        void printRotationMatrix() const;
+        void printResultantMatrix() const;
+    };
+
+    class Transform3D 
+    {
+    private:
+        size_t bodies = 0;
+        Eigen::Matrix4f resultantMatrix = Eigen::Matrix4f::Identity();
+
+        std::vector<Eigen::Matrix3f> rotationMatrix;
+        std::vector<Eigen::Vector3f> translationMatrix;
+        std::vector<Eigen::Matrix4f> transform3DMatrix;
+
+    public:
+        explicit Transform3D() = default;
+
+        // Setup
+        void setBodies(size_t count);
+
+        // Building transforms
+        void addRotation(float roll, float pitch, float yaw);
+        void addTranslation(float x, float y, float z);
+        void formTransformMatrix();
+
+        // Computation
+        Eigen::Matrix4f calculateResultMatrix() const;
+
+        // Debug printing
+        void printTranslationMatrix() const;
+        void printTransform3DMatrix() const;
+        void printRotationMatrix() const;
+        void printResultantMatrix() const;
     };
 }
