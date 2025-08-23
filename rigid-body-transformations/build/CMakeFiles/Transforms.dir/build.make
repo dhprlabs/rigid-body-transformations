@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations
+CMAKE_SOURCE_DIR = C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\build
+CMAKE_BINARY_DIR = C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Transforms.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/Transforms.dir/codegen:
 
 CMakeFiles/Transforms.dir/Transforms.cpp.obj: CMakeFiles/Transforms.dir/flags.make
 CMakeFiles/Transforms.dir/Transforms.cpp.obj: CMakeFiles/Transforms.dir/includes_CXX.rsp
-CMakeFiles/Transforms.dir/Transforms.cpp.obj: C:/Users/Dhairya/Desktop/Local/Github/rigid-body-transformations/Transforms.cpp
+CMakeFiles/Transforms.dir/Transforms.cpp.obj: C:/Users/Dhairya/Desktop/Local/Github/robotics-kinematics/rigid-body-transformations/Transforms.cpp
 CMakeFiles/Transforms.dir/Transforms.cpp.obj: CMakeFiles/Transforms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Transforms.dir/Transforms.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Transforms.dir/Transforms.cpp.obj -MF CMakeFiles\Transforms.dir\Transforms.cpp.obj.d -o CMakeFiles\Transforms.dir\Transforms.cpp.obj -c C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\Transforms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Transforms.dir/Transforms.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Transforms.dir/Transforms.cpp.obj -MF CMakeFiles\Transforms.dir\Transforms.cpp.obj.d -o CMakeFiles\Transforms.dir\Transforms.cpp.obj -c C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\Transforms.cpp
 
 CMakeFiles/Transforms.dir/Transforms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Transforms.dir/Transforms.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\Transforms.cpp > CMakeFiles\Transforms.dir\Transforms.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\Transforms.cpp > CMakeFiles\Transforms.dir\Transforms.cpp.i
 
 CMakeFiles/Transforms.dir/Transforms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Transforms.dir/Transforms.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\Transforms.cpp -o CMakeFiles\Transforms.dir\Transforms.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\Transforms.cpp -o CMakeFiles\Transforms.dir\Transforms.cpp.s
 
 CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.obj: CMakeFiles/Transforms.dir/flags.make
 CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.obj: CMakeFiles/Transforms.dir/includes_CXX.rsp
-CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.obj: C:/Users/Dhairya/Desktop/Local/Github/rigid-body-transformations/src/RigidBodyTransforms.cpp
+CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.obj: C:/Users/Dhairya/Desktop/Local/Github/robotics-kinematics/rigid-body-transformations/src/RigidBodyTransforms.cpp
 CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.obj: CMakeFiles/Transforms.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.obj -MF CMakeFiles\Transforms.dir\src\RigidBodyTransforms.cpp.obj.d -o CMakeFiles\Transforms.dir\src\RigidBodyTransforms.cpp.obj -c C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\src\RigidBodyTransforms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.obj -MF CMakeFiles\Transforms.dir\src\RigidBodyTransforms.cpp.obj.d -o CMakeFiles\Transforms.dir\src\RigidBodyTransforms.cpp.obj -c C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\src\RigidBodyTransforms.cpp
 
 CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\src\RigidBodyTransforms.cpp > CMakeFiles\Transforms.dir\src\RigidBodyTransforms.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\src\RigidBodyTransforms.cpp > CMakeFiles\Transforms.dir\src\RigidBodyTransforms.cpp.i
 
 CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\src\RigidBodyTransforms.cpp -o CMakeFiles\Transforms.dir\src\RigidBodyTransforms.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\src\RigidBodyTransforms.cpp -o CMakeFiles\Transforms.dir\src\RigidBodyTransforms.cpp.s
 
 # Object files for target Transforms
 Transforms_OBJECTS = \
@@ -115,7 +115,7 @@ Transforms.exe: CMakeFiles/Transforms.dir/build.make
 Transforms.exe: CMakeFiles/Transforms.dir/linkLibs.rsp
 Transforms.exe: CMakeFiles/Transforms.dir/objects1.rsp
 Transforms.exe: CMakeFiles/Transforms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Transforms.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Transforms.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Transforms.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/Transforms.dir/clean:
 .PHONY : CMakeFiles/Transforms.dir/clean
 
 CMakeFiles/Transforms.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\build C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\build C:\Users\Dhairya\Desktop\Local\Github\rigid-body-transformations\build\CMakeFiles\Transforms.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\build C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\build C:\Users\Dhairya\Desktop\Local\Github\robotics-kinematics\rigid-body-transformations\build\CMakeFiles\Transforms.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Transforms.dir/depend
 

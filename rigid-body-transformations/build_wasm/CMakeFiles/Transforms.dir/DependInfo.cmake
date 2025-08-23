@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Dhairya/Desktop/Local/Github/rigid-body-transformations/Transforms.cpp" "CMakeFiles/Transforms.dir/Transforms.cpp.o" "gcc" "CMakeFiles/Transforms.dir/Transforms.cpp.o.d"
-  "C:/Users/Dhairya/Desktop/Local/Github/rigid-body-transformations/src/RigidBodyTransforms.cpp" "CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.o" "gcc" "CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.o.d"
+  "C:/Users/Dhairya/Desktop/Local/Github/robotics-kinematics/rigid-body-transformations/Transforms.cpp" "CMakeFiles/Transforms.dir/Transforms.cpp.o" "gcc" "CMakeFiles/Transforms.dir/Transforms.cpp.o.d"
+  "C:/Users/Dhairya/Desktop/Local/Github/robotics-kinematics/rigid-body-transformations/src/RigidBodyTransforms.cpp" "CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.o" "gcc" "CMakeFiles/Transforms.dir/src/RigidBodyTransforms.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

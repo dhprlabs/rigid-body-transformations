@@ -37,7 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake"
   "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeInspectCXXLinker.cmake"
-  "C:/Users/Dhairya/Desktop/Local/Github/rigid-body-transformations/CMakeLists.txt"
+  "C:/Users/Dhairya/Desktop/Local/Github/robotics-kinematics/rigid-body-transformations/CMakeLists.txt"
   "CMakeFiles/4.1.0/CMakeCCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.1.0/CMakeSystem.cmake"
